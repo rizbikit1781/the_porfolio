@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[70vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "https://cdn.sanity.io/images/tlr8oxjg/production/518b84c6a380351b1aeec9449cd44c2bf156bee9-1456x816.png",
     spareImg: "",
   },
   {

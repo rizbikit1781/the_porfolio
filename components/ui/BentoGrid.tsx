@@ -64,7 +64,7 @@ export const BentoGridItem = ({ className, title, description, img, imgClassName
               <img 
                 src={img}
                 alt={img}
-                className={cn(imgClassName, 'object-cover object-center')}
+                className={cn(imgClassName, 'object-cover px-10')}
               />
             )}
           </div>
@@ -105,13 +105,13 @@ export const BentoGridItem = ({ className, title, description, img, imgClassName
                       {item}
                     </span>
                   ))}
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                  <span className="py-6 px-3 rounded-lg text-center bg-[#10132E]" />
 
                   
                 </div>
                 <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
-                  {['VueJS', 'Azure', 'MongoDB'].map((item) => (
+                <span className="py-5 px-3 rounded-lg text-center bg-[#10132E]" />
+                  {['Python', 'Azure', 'MongoDB'].map((item) => (
                     <span key={item} className="py-2 lg:py-3 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
